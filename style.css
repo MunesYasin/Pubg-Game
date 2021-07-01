@@ -1,0 +1,24 @@
+#Myheader{ 
+  color: red ;font: outline;
+}
+
+ul{
+  float: right;
+}
+
+
+p{
+  color: gray
+}
+
+a{
+  text-decoration: none
+
+}
+.colorgreen{
+  color: green
+}
+span{
+  color: blue
+}
+
