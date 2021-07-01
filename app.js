@@ -30,7 +30,7 @@ var map=prompt("Whats your favourit map (Sanhok,Erangle,Miramar) ")
     document.write("<div>"+"<h3>"+map+"</div>"+"</h3>"+" <img src='https://1.bp.blogspot.com/-F_7FxPMlV_M/YEWTMh6L64I/AAAAAAAABQY/KToJ9Tf3RDcUFHtv4-z_jRJe-ZD1_zSuACLcBGAsYHQ/w640-h308/%25D8%25B3%25D8%25A7%25D9%2586%25D9%2587%25D9%2588%25D9%2583.png' alt='Sanhok'" )}
 
 else if (map == "Erangle"){
-    document.write("<div>"+"<h3>"+map+"</div>"+"</h3>"+" <img src='https://1.bp.blogspot.com/-sepocUunIHU/YEWRscwrigI/AAAAAAAABQQ/ZPJheFA3knIJbTjgKSBK0VuXwyB7d-A_wCLcBGAsYHQ/s1350/%25D8%25A7%25D9%258A%25D8%25B1%25D9%2586%25D8%25AC%25D9%2584.png' alt='Erangle'")}
+    document.write("<div>"+"<h3>"+map+"</div>"+"</h3>"+" <img src='https://1.bp.blogspot.com/-sepocUunIHU/YEWRscwrigI/AAAAAAAABQQ/ZPJheFA3knIJbTjgKSBK0VuXwyB7d-A_wCLcBGAsYHQ/s1350/%25D8%25A7%25D9%258A%25D8%25B1%25D9%2586%25D8%25AC%25D9%2584.png' alt='Erangle' ")}
 
 
 else {
