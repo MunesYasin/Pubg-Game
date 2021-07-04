@@ -1,16 +1,22 @@
+
 var name =prompt("Whats your name")
-if (name == ""){
+
+function yourname(x){
+  
+if (x == ""){
 alert("Wlecom ")}
-else if (name =="null"){
+else if (x =="null"){
   alert("Welcom Man")}
   else {
-    alert("Welcom "+name)
+    alert("Welcom "+x)
   }
-
+  return x ;
+}
   
-console.log(name)
+console.log(yourname(name))
 
 
+function yourmap(){
 var map=prompt("Whats your favourit map (Sanhok,Erangle,Miramar) ")
     
      while(map != "Sanhok" && map!= "Miramar" &&map!= "Erangle"){
@@ -39,6 +45,33 @@ else {
 
 
   }
+  }
+  document.write(yourmap())
+
+var rate=prompt("Enter your website rate from 1 to 5")
+while(rate > 5 || rate < 0){
+  var rate = prompt("Plz choose bitwen 0 and 5")}
+
+  function yourrate(num){
+
+var star=''
+if (rate == 0){
+  star = star + "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Face-bad.svg/1200px-Face-bad.svg.png' alt = 'img'>"
+}
+for (var i =0;i<num;i++){
+  
+  star = star+("<img src='https://png.pngtree.com/png-clipart/20201114/ourmid/pngtree-cartoon-hand-drawn-stars-clipart-png-image_2404123.jpg' alt ='img'>")}
+  
+  return star;
+  
+
+}
+document.write("<div>"+"<h3>"+"Your Rate Is "+"</div>"+"</h3>")
+document.write(yourrate(rate));
+
+  
+
+  
 
 
 

@@ -8,7 +8,11 @@
 
 
 p{
-  color: gray
+  color: gray;
+  margin: 20px;
+  padding:  35px;
+  
+  
 }
 
 a{
@@ -16,14 +20,25 @@ a{
 
 }
 .colorgreen{
-  color: green
+  color: greenyellow
 }
 span{
-  color: blue
+  color: black;
+  
+ background-color: hsl(0,50%, 50%);
 }
 .dim {
   height: 300px;
   width: 300px;
-  background-color: powderblue;
+  background-color: black;
   float: right;
+}
+ul {
+  border-style: dotted;
+  background-color: hsla(235, 100%, 50%, .2);
+}
+
+.starimage{
+  height: 50px;
+  width: 50px;
 }
